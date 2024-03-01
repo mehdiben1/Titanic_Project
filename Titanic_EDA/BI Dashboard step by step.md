@@ -5,8 +5,8 @@
  1. I transformed the "Survived" column by changing 1/0 to Yes/No (makes it more understandable)
  2. I did the same thing to "Pclass" column in replaced 1/2/3 by "First", "Second" and "Third" classes. 
  3. I noticed there were some ‘nulls’ in the age column, for me i didn't deal with them because i did not use the "Age" column in my dashboard. But if you want to use it, here some tips to do:
-   - You can replace them all with 0
-   - You can fill them using the **median**; because the histograms showed that we have Right-skewed distribution for the column "Age" so using **the mean** to fill missing values is not a good choice in this case, *so the best way to do it is to use the median;*
+     - You can replace them all with 0
+     - You can fill them using the **median**; because the histograms showed that we have Right-skewed distribution for the column "Age" so using **the mean** to fill missing values is not a good choice in this case, *so the best way to do it is to use the median;*
 
  4. Replaced S/C/Q in the embarked column with their corresponding names Southampton/Cherbourg/Queenstown. For clarity.
  5. I crosschecked the datatypes for each column and corrected wrongly labelled ones.
@@ -28,8 +28,8 @@
 
 #### After  that, I just did some basic formatting like: 
 
-- Eliminating the ‘x-axis’ and some ‘y-axis’ and their titles and turning on data labels for each charts.
-- Repositioning the legends.
-- Editing of colors i.e. red to show death and light blue to show survival.
-- Adding titles to each and every chart (it’s very important)
-etc.
+   - Eliminating the ‘x-axis’ and some ‘y-axis’ and their titles and turning on data labels for each charts.
+   - Repositioning the legends.
+   - Editing of colors i.e. red to show death and light blue to show survival.
+   - Adding titles to each and every chart (it’s very important)
+     etc.
